@@ -1,8 +1,8 @@
 # Lab 21 — Component Based UI
 
-## An Express server with basic and bearer authentication plus ACL!
+## Simple React Fun with a Counter
 
-Lab 10 to 14 for CF JS 401 Nights (n16)
+Lab 21 for CF JS 401 Nights (n16)
 
 ### Author: Earl Jay Caoile
 
@@ -23,7 +23,6 @@ Lab 10 to 14 for CF JS 401 Nights (n16)
 
 - [React JS Hello World](https://reactjs.org/docs/hello-world.html)
 - [SASS](https://sass-lang.com/)
-- [using express middleware](https://expressjs.com/en/guide/using-middleware.html)
 
 ### Setup
 
