@@ -1,8 +1,8 @@
-import React from "react";
-import Header from "./components/Header";
-import Counter from "./components/Counter";
-import Footer from "./components/Footer";
-import "./styles.scss";
+import React from 'react';
+import Header from './components/Header';
+import Counter from './components/Counter';
+import Footer from './components/Footer';
+import './styles.scss';
 
 export default function App() {
   return (

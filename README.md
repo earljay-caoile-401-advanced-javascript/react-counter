@@ -10,7 +10,7 @@ Lab 10 to 14 for CF JS 401 Nights (n16)
 
 #### Submission Reqs
 
-- [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/react-counter/pull/3)
+- [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/react-counter/pull/1)
 - [Sandbox](https://codesandbox.io/s/react-counter-pzcwc)
 
 #### Resources

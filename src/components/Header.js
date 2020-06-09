@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
 /**
  * Component for the header content
- * 
+ *
  * @component
  * @example
  * return (
-  *   <Header />
-  * )
-  */
+ *   <Header />
+ * )
+ */
 function Header() {
   return (
     <div className="header">
