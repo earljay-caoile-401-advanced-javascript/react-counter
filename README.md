@@ -1,8 +1,8 @@
-# Lab 21 — Component Based UI
+# Lab 22 — React Testing and Deployment
 
-## Simple React Fun with a Counter
+## React Counter with Testing and Deployment
 
-Lab 21 for CF JS 401 Nights (n16)
+Lab 21 and 22 for CF JS 401 Nights (n16)
 
 ### Author: Earl Jay Caoile
 
@@ -10,7 +10,7 @@ Lab 21 for CF JS 401 Nights (n16)
 
 #### Submission Reqs
 
-- [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/react-counter/pull/1)
+- [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/react-counter/pull/2)
 - [Sandbox](https://codesandbox.io/s/react-counter-pzcwc)
 
 #### Resources
