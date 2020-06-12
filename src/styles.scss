@@ -29,7 +29,7 @@ header, footer {
   }
 
   .count {
-    min-width: $pxSpacing;
+    min-width: $pxSpacing * 2;
     border-style: solid;
     padding: $pxSpacing;
   }
