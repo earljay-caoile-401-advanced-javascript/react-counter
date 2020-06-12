@@ -29,7 +29,9 @@ header, footer {
   }
 
   .count {
-    min-width: 20px;
+    min-width: $pxSpacing;
+    border-style: solid;
+    padding: $pxSpacing;
   }
 
   .positive {
@@ -55,7 +57,7 @@ header, footer {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 
     &:hover {
-      background-color: #485692;
+      background-color: #9e5acc;
     }
 
     &:active {
