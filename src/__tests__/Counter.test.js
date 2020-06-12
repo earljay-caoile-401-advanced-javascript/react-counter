@@ -1,8 +1,6 @@
 import React from 'react';
 import { shallow, mount, render } from 'enzyme';
 import Counter from '../components/Counter';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 describe('counter component', () => {
   it('has right initial state values', () => {
@@ -45,23 +43,5 @@ describe('counter component appearance', () => {
 
     const plus = component.find('span.up');
     expect(plus.text()).toBe(' + ');
-  });
-});
-
-describe('header component', () => {
-  it('displays the proper html', () => {
-    const component = mount(<Header />);
-    const header = component.find('h1');
-
-    expect(header.text()).toBe('Counters R Fun');
-  });
-});
-
-describe('footer component', () => {
-  it('displays the proper html', () => {
-    const component = mount(<Footer />);
-    const footer = component.find('Footer');
-
-    expect(footer.text()).toBe('\u00A9 2018 Code Fellows');
   });
 });
