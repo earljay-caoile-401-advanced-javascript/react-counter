@@ -13,6 +13,7 @@ Lab 21 and 22 for CF JS 401 Nights (n16)
 - [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/react-counter/pull/2)
 - [Netlify deployment](https://vigorous-swanson-a5a653.netlify.app/)
 - [AWS S3 deployment](http://ecaoile-cf-js-stuff.s3-website-us-west-2.amazonaws.com/)
+- [AWS amplify deployment](https://rev-02.d27dmb8bp629dg.amplifyapp.com/)
 
 #### Resources
 
