@@ -11,7 +11,7 @@ Lab 21 and 22 for CF JS 401 Nights (n16)
 #### Submission Reqs
 
 - [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/react-counter/pull/2)
-- [Sandbox](https://codesandbox.io/s/react-counter-pzcwc)
+- [Netlify deployment](https://vigorous-swanson-a5a653.netlify.app/)
 
 #### Resources
 
