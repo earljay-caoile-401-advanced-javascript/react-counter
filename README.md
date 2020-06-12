@@ -18,6 +18,7 @@ Lab 21 and 22 for CF JS 401 Nights (n16)
 - [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
 - [HTML input tag](https://www.w3schools.com/tags/tag_input.asp)
 - [how to make header and footer stay at top and bottom of page](https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b)
+- [vertical centering with flexbox](https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/)
 
 ### Documentation
 
@@ -31,4 +32,4 @@ Lab 21 and 22 for CF JS 401 Nights (n16)
 
 ### UML
 
-![UML Image](lab-21-uml.png "uml diagram")
+![UML Image](lab-22-uml.png "uml diagram")

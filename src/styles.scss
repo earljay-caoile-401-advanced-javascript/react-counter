@@ -1,3 +1,5 @@
+$spacing: 1em;
+$pxSpacing: 20px;
 
 #root {
   font-family: Arial;
@@ -7,9 +9,6 @@
   flex-direction: column;
   min-height: 100vh;
 }
-
-$spacing: 1em;
-$pxSpacing: 20px;
 
 header, footer {
   background-color: #008080;
@@ -27,6 +26,10 @@ header, footer {
   
   span {
     margin: $spacing * 2;
+  }
+
+  .count {
+    min-width: 20px;
   }
 
   .positive {
