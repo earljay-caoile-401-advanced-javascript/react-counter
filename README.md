@@ -23,6 +23,7 @@ Lab 21 and 22 for CF JS 401 Nights (n16)
 - [how to make header and footer stay at top and bottom of page](https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b)
 - [vertical centering with flexbox](https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/)
 - [CSS borders](https://www.w3schools.com/css/css_border.asp)
+- [how to disable text selection highlighting](https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting)
 
 ### Documentation
 
