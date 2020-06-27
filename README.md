@@ -1,8 +1,8 @@
-# Lab 21 — Component Based UI
+# Lab 22 — React Testing and Deployment
 
-## Simple React Fun with a Counter
+## React Counter with Testing and Deployment
 
-Lab 21 for CF JS 401 Nights (n16)
+Lab 21 and 22 for CF JS 401 Nights (n16)
 
 ### Author: Earl Jay Caoile
 
@@ -10,14 +10,20 @@ Lab 21 for CF JS 401 Nights (n16)
 
 #### Submission Reqs
 
-- [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/react-counter/pull/1)
-- [Sandbox](https://codesandbox.io/s/react-counter-pzcwc)
+- [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/react-counter/pull/2)
+- [GitHub actions](https://github.com/earljay-caoile-401-advanced-javascript/react-counter/actions)
+- [Netlify deployment](https://vigorous-swanson-a5a653.netlify.app/)
+- [AWS S3 deployment](http://ecaoile-cf-js-stuff.s3-website-us-west-2.amazonaws.com/)
+- [AWS amplify deployment](https://rev-02.d27dmb8bp629dg.amplifyapp.com/)
 
 #### Resources
 
 - [HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
 - [HTML input tag](https://www.w3schools.com/tags/tag_input.asp)
 - [how to make header and footer stay at top and bottom of page](https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b)
+- [vertical centering with flexbox](https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/)
+- [CSS borders](https://www.w3schools.com/css/css_border.asp)
+- [how to disable text selection highlighting](https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting)
 
 ### Documentation
 
@@ -31,4 +37,4 @@ Lab 21 for CF JS 401 Nights (n16)
 
 ### UML
 
-![UML Image](lab-21-uml.png "uml diagram")
+![UML Image](lab-22-uml.png "uml diagram")

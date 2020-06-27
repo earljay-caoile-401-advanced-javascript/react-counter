@@ -1,20 +1,13 @@
 import React from 'react';
 
-/**
- * Component for the header content
- *
- * @component
- * @example
- * return (
- *   <Header />
- * )
- */
-function Header() {
-  return (
-    <div className="header">
-      <h1>Lab 21 — Component Based UI</h1>
-    </div>
-  );
+class Header extends React.Component {
+    render() {
+        return (
+            <header>
+                <h1>Counters R Fun</h1>
+            </header>
+        );
+    }
 }
 
 export default Header;

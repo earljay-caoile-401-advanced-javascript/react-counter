@@ -1,0 +1,11 @@
+$spacing: 1em;
+$pxSpacing: 20px;
+
+#root {
+  font-family: Arial;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

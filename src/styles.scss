@@ -1,74 +1,66 @@
-$btnColor: rgb(0, 85, 128);
-$mainBackground: black;
-$buttonTextColor: white;
-$spacing: 40px;
+@import 'base';
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
-
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+header, footer {
+  background-color: #008080;
+  color:white;
+  padding: $spacing * 1.5;
 }
 
 .counter {
+  background-color: #e6f7ff;
+  font-size: $pxSpacing;
+  display: flex;
   flex: 1;
-  margin: $spacing * 4 auto;
-
-  input, button {
-    font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  
+  span {
+    margin: $spacing * 2;
   }
 
-  input {
-    width: 100px;
-    height: 50px;
-    text-align: center;
+  .count {
+    min-width: $pxSpacing * 2;
+    border-style: solid;
+    padding: $pxSpacing;
+  }
+
+  .positive {
+    color: black;
   }
 
   .negative {
     color: red;
   }
 
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
+  .clicker {
+    background-color: #5a6fcc;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: $pxSpacing $pxSpacing * 1.2;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 
-  input[type=number] {
-    -moz-appearance: textfield;
-  }
-
-  button {
-    background-color: $btnColor;
-    margin: auto $spacing / 2;
-    padding: $spacing / 2;
-    color: $buttonTextColor;
-    padding: 15px 20px;
-    border-radius: 15%;
+    // The following disables highlight on the + and -
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 
     &:hover {
-      background-color: rgb(0, 153, 153);
+      background-color: #9e5acc;
     }
-  }
 
-  .fa {
-    font-size: 40px;
-  }
-}
-
-.header, .footer {
-  padding: $spacing/5;
-  width: 100%;
-  // position: fixed;
-  background-color: rgb(204, 238, 255)
-}
-
-.footer {
-  .links {
-    a {
-      margin: $spacing/4;
+    &:active {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
   }
 }
